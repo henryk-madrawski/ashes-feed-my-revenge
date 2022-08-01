@@ -1,0 +1,115 @@
+
+
+# IMPLEMENTATION NOTES:
+# apart from the spoken word [textbox] each of the main chars have their own "thought box"
+# Ildari's "visions" are from her perspective
+# get some records of heartbeats
+# a picture from bird's perspective of highpoint tower at night to show that some time has passed
+# i need to figure out the way how to indicate that muptiple day passed => ? pictures of fort at night and at the day + some passing day music (or rather sounds of the night (like critters) and the day (like birds))
+
+
+
+# Ildari passing by the same ash spawn in the corner as he gets up/leaves her room everyday
+# why he must be there everyday... that makes me so tired
+# “voices” there are always voices and screams and whispers
+# are those my voices? or not my voices?
+
+# There will be 2 main characters and i want to capture the dynamics between them: one is a person that's been hurt  and tormented and ascends deeper into mental illness, but her disdain doesn't allow her to be helped and rethink her actions. The other character is someone very idealistic, who chooses to ignore some obvious facts (and dangers) in order to fulfill herself as a "good and empathetic" person
+
+
+
+
+
+
+    # why am i here?
+    ### THERE SHOULD BE MORE THINGS ABOUTH HER HURTING HEART AND NELOTH
+    # she wakes up
+
+    # i was discardable like any other test subject
+    # that's how he repaid my years of loyal service
+    # <3 he knew it! HE KNEW IT ALL! how that would feel! The pain! He wanted to sacrifice me first, watch me suffer and then take his goddamn notes!
+    # wait...
+    # the ash spawn is still there
+
+
+
+
+
+# ildari during her psych like a broken record: "ash", "everyone, everyone", "death" etc.
+
+
+# Can you really be friends with someone mad?
+# How it feels to have paranoia.
+# How it feels to fall from grace.
+# a tragic story
+
+
+
+**********************
+
+
+6 essential questions:
+who is it about?
+
+what did they want?
+she was ambitious. she wanted to be more. she wanted to be a revered woman
+why they can’t get it?
+she was eager to take all the risks  to become better. (or Neloth talked her into that and she’s blaming him for her suffering)
+what did they do about that?
+She tried to recover, to get back to her studies, to regain her skills and her glory
+why doesn’t that work?
+she knew she couldn’t return back to her old self. the damage is done.She became paranoid. people started to treat her like a madwoman. some of them hated her. some of them pitied her. from no one she could get her respect.
+how does that end (what they finally do)?
+she revenges on everyone. She wants people to suffer as much as she does
+
+who?
+what?
+why?
+where?
+
+
+
+CHARACTER PROFILES
+
+ILDARI
+
+NIYYA
+- believes that the people she loves should be protected at all costs
+- empathetic
+- patient, but not really open-minded
+- the money is needed only to get by
+
+IMPERIAL GUY
+- doesn't believe in mental health at all
+- places work and money in the first place
+- after failure after failure there are less workforces - he starts being nicer to ildari, gave her more food
+OR 
+- feels wrong after telling that ildari is dead and started being nice - he's still strict, though
+
+BRETON GUY
+- laid back
+- believes that you have no responsibility towards treating the sick - they can live as they are or they could die if they please so
+- seems to know a lot but cares little to do anything with that
+- SEEMS friendly in conversations with Ildari
+- wants money without work (opportunist)
+
+
+
+
+SOURCES:
+https://en.uesp.net/wiki/Skyrim:Niyya
+https://en.uesp.net/wiki/Skyrim:Elynea_Mothren
+https://en.uesp.net/wiki/Skyrim:Ildari%27s_Journal
+https://en.uesp.net/wiki/Skyrim:Ildari%27s_Journal,_vol._I
+https://en.uesp.net/wiki/Skyrim:Ildari%27s_Journal,_vol._II
+https://en.uesp.net/wiki/Skyrim:Ildari%27s_Journal,_vol._III
+
+"""
+
+
+
+
+
+
+
+
