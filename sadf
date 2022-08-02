@@ -1,0 +1,193 @@
+[33mcommit fdfc439467e9349c02935ac7fd97bb97c57c94c6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Julia Madrawska <julia.madrawska@gmail.com>
+Date:   Tue Aug 2 12:38:09 2022 +0200
+
+    rename the Discord screenshot
+    
+    Underneath: dummy text
+    
+    Add summary line here
+    
+    An example of how to write long commit messages.
+    Blah blah blah blah blah.
+    SKADOOSH!
+
+[33mcommit 573a144667fc7a9b130fbaab82a2b31b966b865b[m
+Author: Julia Madrawska <julia.madrawska@gmail.com>
+Date:   Tue Aug 2 12:33:59 2022 +0200
+
+    delete dummy file
+
+[33mcommit b0031c17e2b59f1704b804cdfd12120056717bff[m
+Author: Julia Madrawska <julia.madrawska@gmail.com>
+Date:   Mon Aug 1 18:09:32 2022 +0200
+
+    do insingnificant stuff
+
+[33mcommit 81d8cf0b5ca2dd71b896da438d6a1b37cdd1cc30[m
+Author: Julia Madrawska <julia.madrawska@gmail.com>
+Date:   Mon Aug 1 18:04:23 2022 +0200
+
+    added moodboard images
+
+[33mcommit ab00af548ed220790ae96f57312474df8114759d[m
+Author: Julia Madrawska <julia.madrawska@gmail.com>
+Date:   Mon Aug 1 15:37:27 2022 +0200
+
+    added notes to directory, sorted them into files
+
+[33mcommit 1bbb03d22411584c972cfae539ded2845f599c62[m
+Author: Julia Madrawska <julia.madrawska@gmail.com>
+Date:   Mon Aug 1 15:32:50 2022 +0200
+
+    unimportant change
+
+[33mcommit 36c295528230f4d1ee5c925fca7fc6a85f6e0800[m
+Author: Julia Madrawska <julia.madrawska@gmail.com>
+Date:   Mon Aug 1 15:30:06 2022 +0200
+
+    Created files on audio notes.
+
+[33mcommit fae731e8eabfe2ec27da9c6bc29393c4474cdcbf[m
+Author: Julia Madrawska <julia.madrawska@gmail.com>
+Date:   Mon Aug 1 15:19:06 2022 +0200
+
+    added some files
+
+[33mcommit c1b45aa5a9a484d7959d7d53e602d4f6205dc08b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: bare-fangs-of-capybara <julia.madrawska@gmail.com>
+Date:   Mon Aug 1 12:08:09 2022 +0200
+
+    new file
+
+[33mcommit d7304ce150cc30e7d173c6b24a477db41e62dd2e[m
+Author: bare-fangs-of-capybara <julia.madrawska@gmail.com>
+Date:   Mon Aug 1 12:03:15 2022 +0200
+
+    quick update
+
+[33mcommit ad8c7dbfcfa30052401880b0fdc3e914ac9b47ab[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:37:45 2022 +0200
+
+    Add files via upload
+
+[33mcommit 9ab90baa87b87a3377d2d9331a35500b6df6deb1[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:35:57 2022 +0200
+
+    Delete script.rpyc
+
+[33mcommit 949a53adcc3f48276bc66d657302b23d1d7e751d[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:35:51 2022 +0200
+
+    Delete script.rpy
+
+[33mcommit 6e59d05647a42388a5165bc8ddecdc378c8dfc66[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:35:44 2022 +0200
+
+    Delete screens.rpyc
+
+[33mcommit cb4cc897853c2f4234ef1797cf4e47fda741cef1[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:35:36 2022 +0200
+
+    Delete screens.rpy
+
+[33mcommit 25815d7e43a273d44b3fb6a3da2c2211a35f344b[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:35:29 2022 +0200
+
+    Delete options.rpyc
+
+[33mcommit 7e8a3eb7134d60571e58c9bc23fe12d663c66a28[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:35:21 2022 +0200
+
+    Delete gui.rpyc
+
+[33mcommit d2723fcbc9128cbc079e2425b7cfc41704cdddc5[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:34:59 2022 +0200
+
+    Add files via upload
+
+[33mcommit 19fa3bce1306465820d8a015dc41d00681c65bdc[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:33:58 2022 +0200
+
+    Delete options.rpy
+
+[33mcommit d640ec92402333629e5a85ddb4779bcb91be6537[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:33:36 2022 +0200
+
+    Delete tl/None directory
+
+[33mcommit 6c6a0a81149c7e31b2364a96db728adb2d3ecb1b[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:33:29 2022 +0200
+
+    Delete saves directory
+
+[33mcommit 3d6930ba92c2e7d97763327008197dbd72c855ab[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:33:11 2022 +0200
+
+    Delete images directory
+
+[33mcommit aa1687897fd3f50001885a95dcc250720cebe03c[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:33:02 2022 +0200
+
+    Delete gui directory
+
+[33mcommit 2ec0f4358b7baa95279656653aa1ba438c8afa63[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:32:50 2022 +0200
+
+    Delete game directory
+
+[33mcommit 2caa1e05512fb6ada7fcc0814ae010e7fbb883bc[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:32:37 2022 +0200
+
+    Delete cache directory
+
+[33mcommit fda3e57f84e55df453beb3054c19d410f5b4cc0c[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:15:01 2022 +0200
+
+    Rename gui.rpy to game/gui.rpy
+
+[33mcommit db4ce0d3753c6a527a718cb599d58fe25b3f57b4[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:14:26 2022 +0200
+
+    Rename README.md to game/README.md
+
+[33mcommit a99b4edca6c07a051d4a5a29b4f63c5543d043d9[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:12:16 2022 +0200
+
+    Create game.txt
+
+[33mcommit f772bfdeb0627d6d85619803c07545a8d6cb6fc4[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:07:53 2022 +0200
+
+    Add files via upload
+
+[33mcommit 1968ad88f3d7711e656d7ceed9727d6908d20767[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 10:06:05 2022 +0200
+
+    Add files via upload
+
+[33mcommit ef886d0bf2f1f8a10080e28eca0f9c54bad0dc20[m
+Author: yuul-ia <82326182+yuul-ia@users.noreply.github.com>
+Date:   Mon Aug 1 09:55:24 2022 +0200
+
+    Initial commit
