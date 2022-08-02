@@ -1,3 +1,7 @@
 # bg would have to have dirty, worn-out look
 # the letters shall be slightly disturbing
 # each character's name shall be marked in different color
+# orange and red
+# each character should have a different thought box (like different texture/ bg color)
+# the character's text should be white for simplicity
+
