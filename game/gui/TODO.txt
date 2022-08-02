@@ -1,2 +1,3 @@
 # bg would have to have dirty, worn-out look
 # the letters shall be slightly disturbing
+# each character's name shall be marked in different color
