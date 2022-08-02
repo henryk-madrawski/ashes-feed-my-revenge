@@ -1,7 +1,3 @@
-# THIS IS THE SCRIPT FILE
-# ANOTHER LINE
-
-
 # MAIN CHARACTERS
 define i = Character("Ildari")
 define it = Character("[[Ildari's thoughts]")
