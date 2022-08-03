@@ -1,4 +1,5 @@
 # TODO 1.: give breton and imperial names
+# no NSFW stuff
 
 # MAIN CHARACTERS
 define i = Character("Ildari")
