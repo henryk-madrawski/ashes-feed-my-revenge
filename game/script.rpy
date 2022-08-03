@@ -1,8 +1,6 @@
 # TODO 1.: give breton and imperial names
 # no NSFW stuff
 
-# MISTAKE MISTAKE WESHRT GHSA
-
 # MAIN CHARACTERS
 define i = Character("Ildari")
 define it = Character("[[Ildari's thoughts]")
