@@ -1,3 +1,5 @@
+# TODO 1.: give breton and imperial names
+
 # MAIN CHARACTERS
 define i = Character("Ildari")
 define it = Character("[[Ildari's thoughts]")
