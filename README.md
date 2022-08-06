@@ -1,4 +1,6 @@
-# ashes-feed-my-revenge
+# This is a Ren'Py fanfic game "Ashes Feed my Revenge"
 
-# this is my project of a fanfic game
-# I've added pale-enchantress for collab
+# There's no built-in distributions, you'll have to run the files with pre-installed Ren'Py the game editor.
+
+# Project created and maintained by Julia Mądrawska.
+ 
