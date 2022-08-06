@@ -8,7 +8,7 @@ There's no built-in distributions, you'll have to run the files with pre-install
 
 ## Social Media
 
-* [My other games on Itch.io]([https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0](https://clavicula-nox.itch.io/))
-* [My Instagram]([https://docs.microsoft.com/en-us/ef/core/](https://www.instagram.com/_clavicula_nox_/))
+* [My other games on Itch.io](https://clavicula-nox.itch.io/)
+* [My Instagram](https://www.instagram.com/_clavicula_nox_/)
 
 
