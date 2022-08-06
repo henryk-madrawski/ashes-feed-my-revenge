@@ -1,1 +1,3 @@
-# here's my fanfic <3
+# ashes-feed-my-revenge
+
+# this is my project of a fanfic game
