@@ -1,4 +1,4 @@
-# TODO 1.: give breton and imperial names
+# TODO 1.: give ni and m names
 # no NSFW stuff
 
 # MAIN CHARACTERS
@@ -9,8 +9,8 @@ define nt = Character("[[Niyya's thoughts]")
 
 # SIDE CHARACTERS
 define t = Character("Talvas") # a young Dunmer sorcerer, gives a feel of young, determined, but a bit awkward student
-define breton = Character("[[breton guy]") # a Breton (similar to an Englishman) man, about Niyya's age
-define imperial = Character("[[imperial guy]") # an Imperial (similar to an ancient Roman) man in his 40-ties
+define ni = Character("Niklas") # a Breton (similar to an Englishman) man, about Niyya's age
+define m = Character("Marius Deanicci") # an Imperial (similar to an ancient Roman) man in his 40-ties
 
 
 
@@ -69,24 +69,24 @@ label start:
     "(the sounds of a thunderstorm in the bg + contemplational music)"
     n "...I've searched the whole storage room, we don't have any painkiller."
     n "Damn, I forgot to take more alcohol to disinfect her wounds."
-    imperial "I had some alcohol with me. Don't worry. She's in clean clothes already. And her wounds are tended to."
+    m "I had some alcohol with me. Don't worry. She's in clean clothes already. And her wounds are tended to."
     n "What? Did you... undress her?"
-    imperial "Yes."
+    m "Yes."
     n "Damn, I told you that I would tend to her chest wound!"
     nt "What a goddamn pervert you are! A suffering girl..."
     n "Why did you send me for the alcohol then?"
-    imperial "Cut the crap."
-    imperial "She's almost a corpse, that's just a matter of days."
-    imperial "If you think it was a pleasure to unpack her tits... well, I've never seen a more disgusting chest wound than hers."
-    imperial "And someone has already tried to tamper with that. It reeks of some wicked magic."
+    m "Cut the crap."
+    m "She's almost a corpse, that's just a matter of days."
+    m "If you think it was a pleasure to unpack her tits... well, I've never seen a more disgusting chest wound than hers."
+    m "And someone has already tried to tamper with that. It reeks of some wicked magic."
     n "Oh..."
-    imperial "Damn, I might regret even touching her. It might be contagious..."
+    m "Damn, I might regret even touching her. It might be contagious..."
     n "Great Gods..."
-    imperial "Yeah, she is weak. She barely opened her eyes while I was dressing her."
-    imperial "She had no strength to utter even a single word."
+    m "Yeah, she is weak. She barely opened her eyes while I was dressing her."
+    m "She had no strength to utter even a single word."
     n "Poor girl..."
-    imperial "On the other hand... nursing her might be worth it."
-    imperial "Her clothes looked very expensive. If she's from a noble family..."
+    m "On the other hand... nursing her might be worth it."
+    m "Her clothes looked very expensive. If she's from a noble family..."
     n "Oh, stop!"
     n "She needs help regardless!"
     n "I need to see her!"
@@ -223,27 +223,27 @@ label start:
 # 6. SAY "HELLO" TO THE MINERS, ILDARI
     it "yes, they are there"
     it "talking about me"
-    imperial "...no, it doesn't look like anything I've seen before..."
-    imperial "Oh, Ildari, right?"
+    m "...no, it doesn't look like anything I've seen before..."
+    m "Oh, Ildari, right?"
     i "..."
-    imperial "It's a pleasure to see that you got better."
+    m "It's a pleasure to see that you got better."
     "this guy..."
     "heart"
     "he was staring at your wound"
     "at your heart stone"
     "what does he want to do with that?"
-    imperial "My name is [[NAME]."
+    m "My name is [[NAME]."
     it "he must have thought i didn't notice him"
     it "i cannot trust him"
-    breton "... and I am [[BRETON NAME]"
-    breton "Nice to meecha."
+    ni "... and I am [[ni NAME]"
+    ni "Nice to meecha."
     i "Indeed."
-    breton "Where did you get those wounds from?"
+    ni "Where did you get those wounds from?"
     "ash spawns"
     i "The ash spawns attacked me"
     i "I tried to fix the wound myself."
     i "...hence the seams."
-    imperial "Do ash spawns... carry diseases?"
+    m "Do ash spawns... carry diseases?"
     i "I don't recall any."
     i "I need to get some fresh air."
     return
@@ -457,20 +457,20 @@ label start:
 ###
 
 # 9. SHE CAN WALK, SHE CAN WORK
-    "[[Niyya and Imperial are talking, then Ildari approaches]"
-    imperial "Seems like Ildari feels better now, her hands look better..."
-    imperial "She could relieve us of some of that work."
-    imperial "I suppose that kitchen duty would be suitable."
+    "[[Niyya and m are talking, then Ildari approaches]"
+    m "Seems like Ildari feels better now, her hands look better..."
+    m "She could relieve us of some of that work."
+    m "I suppose that kitchen duty would be suitable."
     n "But she is still weak."
     n "Her... head hurts."
-    imperial "Don't babysit her, Niyya."
-    imperial "Ildari, from now on you will be working in the kitchen."
+    m "Don't babysit her, Niyya."
+    m "Ildari, from now on you will be working in the kitchen."
     "this is an outright insult!"
     "you've fallen so low..."
-    imperial "You seem to have enough strength to wander in the ashlands all day."
+    m "You seem to have enough strength to wander in the ashlands all day."
     i "Ye... Yes."
-    imperial "Good. The ash yams are waiting for you, so get moving."
-    "[[Imperial leaves]"
+    m "Good. The ash yams are waiting for you, so get moving."
+    "[[m leaves]"
     it "I have to do it."
     it "Can't let him reveal my secret."
     n "I'm sorry that happened."
@@ -612,11 +612,11 @@ label start:
     # THE WAVE OF ANGUISH AND PARANOIA
 
 # SOMETHING'S OFF WITH HER
-    # imperial says to breton that there's something off with Ildari and normally sick people are tired, she seems to conceal some secrets
-    # breton notices as she weirdly delights herself in dipping her feet with the ash (result of "myśli nadrzędne" czy jakoś tak and her speech tends to be sometimes distorted)
+    # m says to ni that there's something off with Ildari and normally sick people are tired, she seems to conceal some secrets
+    # ni notices as she weirdly delights herself in dipping her feet with the ash (result of "myśli nadrzędne" czy jakoś tak and her speech tends to be sometimes distorted)
     # he suggests that some people after specific injuries are mentally ill
-    # imperial says we should lock her up
-    # breton argues that pleasant, non-intrusive behavior keeps things peaceful
+    # m says we should lock her up
+    # ni argues that pleasant, non-intrusive behavior keeps things peaceful
     # those people are usually harmless
     # is she's healthy - locking up may do the advere effect
     # "we might as well just kill her"
@@ -637,8 +637,8 @@ label start:
     # the other decide that they shouldn't care
 
 # A DIFFERENT STATE OF MIND
-    # Niyya had a conversation with a breton guy about the hardships of taking care of Ildari (Niyya felt so overburdened that she had to tell it to someone)
-    # Niyya tells the breton what's happening to Ildari, for the hope he may know sth about it
+    # Niyya had a conversation with a Niklas about the hardships of taking care of Ildari (Niyya felt so overburdened that she had to tell it to someone)
+    # Niyya tells the ni what's happening to Ildari, for the hope he may know sth about it
     # “once people are insane, you can’t be really friends with them”
     # “their mind is constantly in another state you can’t even imagine”
     # “they are not responsible for their actions and their feelings”
@@ -661,17 +661,17 @@ label start:
 
 
 # THE PARASITE ILDARI
-    # imperial talks with someone about Ildari's clothes - if the blood goes off, they might be able to sell them
-    # the imperial guy scolded Niyya for wanting to keep Ildari around - she was barely fit for any work and still consumed their precious food
+    # m talks with someone about Ildari's clothes - if the blood goes off, they might be able to sell them
+    # the m Deanicci scolded Niyya for wanting to keep Ildari around - she was barely fit for any work and still consumed their precious food
     # he yells that ildari should be sent for raven rock to beg for a living
 
 
 # THE BEANS GOT SPILLED
 
 # MADWOMAN!
-    imperial "There are no voices and ghosts, Ildari!"
-    imperial "That's a sick excuse to do suspicious things!"
-    imperial "You spend whole days in ashlands instead of earning for your living!"
+    m "There are no voices and ghosts, Ildari!"
+    m "That's a sick excuse to do suspicious things!"
+    m "You spend whole days in ashlands instead of earning for your living!"
 
 # SO I HAVE NO FRIENDS...
     n "Ildari, it is a very bad decision to hide it."
@@ -719,7 +719,7 @@ label start:
     # Captive: “I don’t know any Neloth!”
 
 # POUND THAT BITCH TO DEATH!
-    # the Imperial guy (with 2 other guys?) managed to hide and to sneak into the room while she was not looking
+    # the m Deanicci (with 2 other guys?) managed to hide and to sneak into the room while she was not looking
     # he managed to attack her from the back with something blunt - Ildari evaded, but was painfully hit on a shoulder
     # X two ash spawns took care of him and pierced his chest with a sword
 
