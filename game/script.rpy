@@ -13,6 +13,19 @@ define ni = Character("Niklas") # a Breton (similar to an Englishman) man, about
 define m = Character("Marius Deanicci") # an Imperial (similar to an ancient Roman) man in his 40-ties
 
 
+# Imperial guy:
+# finds emaciated, half-alive, defenseless Ildari attractive… until he realizes her # “disease” might be contagious
+# considers being nice to her later on
+# but gets angry and considers throwing her out because she acts suspicious and consumes their food, yet barely does any work
+# probably xSTx
+
+# Breton guy:
+# a laid-back opportunist; sly
+# doesn’t care about stuff, but likes to analyze and question things, as a sport
+# for him Ildari is merely a curiosity, rather than someone to empathize with
+# he does nothing to help her; “she may live, afflicted as she is”
+# an interesting conversationsit
+# probably an ENTP
 
 
 label start:
