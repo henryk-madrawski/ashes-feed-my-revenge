@@ -2,15 +2,15 @@
 # no NSFW stuff
 
 # MAIN CHARACTERS
-define i = Character("Ildari")
+define i = Character("Ildari") # a Dunmer (dark elf) sorceress, quite young as for an elf, slender and beautiful
 define it = Character("[[Ildari's thoughts]")
-define n = Character("Niyya")
+define n = Character("Niyya") # a Redguard (similar to an Afromerican) woman, porbably in her late 20-s
 define nt = Character("[[Niyya's thoughts]")
 
 # SIDE CHARACTERS
-define t = Character("Talvas")
-define breton = Character("[[breton guy]")
-define imperial = Character("[[imperial guy]")
+define t = Character("Talvas") # a young Dunmer sorcerer, gives a feel of young, determined, but a bit awkward student
+define breton = Character("[[breton guy]") # a Breton (similar to an Englishman) man, about Niyya's age
+define imperial = Character("[[imperial guy]") # an Imperial (similar to an ancient Roman) man in his 40-ties
 
 
 
@@ -345,8 +345,8 @@ label start:
 
 # DON'T. FOCUS. ON. THE. VOICES.
     "[[Ildari is in ashlands.]"
-    "[[some doom/funeral music is played]"
-    "[[buzzing of the flies can be heard]"
+    "[[some doom/funeral music]"
+    "[[buzzing of the flies]"
     "[[Ildari found a dead body of a mage (a bosmer in necromancer robes?)]"
     "(here come the whispers)"
     "body"
@@ -481,31 +481,48 @@ label start:
 
 
 # 4. ASH YAMS AND REVENGE
-    # before thinking about neloth she would (? probably ?) have an intense and strong psychosis, and next day she would wake up exhausted
-    # While Ildari was working in the kitchen she recollected images from Tel Mithryn about who she was earlier and compared this to now. She had a breakdown then.
-    # she recollects the splendor of her past life
-    ### THIS SHOULD BE REFORMATTED NOT AS THOUGHTS, BUT AS THE VOICES
-    # "I've had some other people to prepare my food."
-    # "I've spent all the days on deepening my knowledge and refining my techniques."
-    # "Eh... I've used to be more sharper than I am now."
-    # "[[zoom on the heart stone in her chest]"
-    # "Now it's all gone..."
-    # "[[background with slightly smiling Ildari on an operational table]"
-    # "I remember being pretty eager to undergo the operation myself."
-    # "No. Wait..."
-    # "[[slide with Neloth on golden bg]"
-    # "That bastard..."
-    # "He talked me into all of that."
-    # "He promised me almost godlike powers."
-    # "[[slide with her heart]"
-    # "And all I got is... pain."
-    # "...and voices."
-    # sounds of the voices there
-    # "[[slide with Ildari\'s hand clutching knife]"
-    # "That all..."
-    # "[[Ildari\'s angry face]"
-    # "HIS FAULT!"
-    # when she ends her contemplation her nightmares say "hello"
+    "[[Ildari looks at her hands and feet and notices that they are like skeleton's.]"
+    it "Am I rotting?{p}Am I rotting?"
+    "no, Ildari"
+    "you are alive"
+    "your heart stone is beating"
+    it "I'm so exhausted."
+    "you have to do something"
+    "you are being useless..."
+    "[[Ildari sits by the kitchen table with a bowl and a knife and a heap of ash yams to peel]"
+    "YOUR WORK AWAITS"
+    it "Damn, this is embarassing."
+    "[[sigh]"
+    "[[a slide with her hands as she is peeling the ash yams]"
+    it "...and to think that I was once a sorceress."
+    "[[zoom in at her sad and tired face]"
+    it "I had some other people to prepare my food."
+    it "And I had whole days for my studies."
+    it "Gaining knowledge."
+    it "Refining techniques."
+    "[[sigh]"
+    it "It's all gone now."
+    it "I'm too weak for that."
+    "[[it's a memory Ildari recollects - she's lying covered with white cloth on a table, ready for the ritual, slightly smiling in her sleep]"
+    it "What a fool I was to be so eager to undergo the ritual myself!"
+    it "Wait..."
+    it "No."
+
+    ### ? THIS SHOULD BE REFORMATTED NOT AS THOUGHTS, BUT AS THE VOICES ?
+
+    "[[slide with Neloth with a grim face on a golden background (from the bottom perspective so that he looks taller and more menancing)]"
+    it "Neloth."
+    it "That bastard..."
+    it "He talked me into all of that!"
+    it "He promised me almost godlike powers."
+    it "[[slide with her heart]"
+    it "And all I got is... pain."
+    it "...and voices."
+    it sounds of the voices there
+    it "[[slide with Ildari\'s hand clutching the peeling knife]"
+    it "That all..."
+    it "[[Ildari\'s angry face]"
+    it "HIS FAULT!"
 
 
 #______________________________________________________________________________________
@@ -583,7 +600,7 @@ label start:
     t "Please, let me escort you to wherever you live."
     it "!"
     t "It's not the safest place."
-    # talvas is neloth's pawn
+    # talvas is a neloth's pawn
     t "I won't disturb you then."
     t "See you."
     it "Damn, I was acting weird."
