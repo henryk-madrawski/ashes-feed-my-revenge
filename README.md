@@ -1,6 +1,5 @@
 # Ashes Feed my Revenge
 
-![dunmer](https://raw.githubusercontent.com/yuul-ia/ashes-feed-my-revenge/main/game/images/ildari/black%20white%20colored%202.png "Dunmer lololol")
 
 
 **Hello.**
