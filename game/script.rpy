@@ -1,5 +1,7 @@
-# TODO 1.: give ni and m names
+
 # no NSFW stuff
+# BUT SHOULD I MAKE IT INTO A ROMANCE? (what would sell better, lol)
+# Write their names as a "Breton/Imperial man","woman" and "sorcerer" before they introduce
 
 # MAIN CHARACTERS
 define i = Character("Ildari") # a Dunmer (dark elf) sorceress, quite young as for an elf, slender and beautiful
@@ -9,8 +11,11 @@ define nt = Character("[[Niyya's thoughts]")
 
 # SIDE CHARACTERS
 define t = Character("Talvas") # a young Dunmer sorcerer, gives a feel of young, determined, but a bit awkward student
-define ni = Character("Niklas") # a Breton (similar to an Englishman) man, about Niyya's age
+define tt = Character("[[Talvas' thoughts]")
+define ni = Character("Nikolai") # a Breton (similar to an Englishman) man, about Niyya's age
 define m = Character("Marius Deanicci") # an Imperial (similar to an ancient Roman) man in his 40-ties
+define a = Character("Ash spawn") # a robust, zombie-like monster made of animated ash
+define c = Character("General Falx Carius") # a robust, zombie-like monster made of animated ash
 
 
 # Imperial guy:
@@ -28,9 +33,29 @@ define m = Character("Marius Deanicci") # an Imperial (similar to an ancient Rom
 # probably an ENTP
 
 
+define audio.unseen_horrors = "audio/music/unseen_horrors.mp3"
+define audio.invariance = "audio/music/invariance.mp3"
+define audio.crypto = "audio/music/crypto.mp3"
+define audio.all_this = "audio/music/all_this.mp3"
+define audio.invariance = "audio/music/invariance.mp3"
+define audio.past_the_edge = "audio/music/past_the_edge.mp3"
+define audio.welcome_to_horror_land = "audio/music/welcome_to_horror_land.mp3"
+define audio.lasting_hope = "audio/music/lasting_hope.mp3"
+define audio.anguish = "<from 92 to 150>audio/music/anguish.mp3"
+define audio.ossuary_6_air = "audio/music/ossuary_6_air.mp3"
+define audio.magic_forest = "audio/music/magic_forest.mp3"
+define audio.night_of_chaos = "<from 92 to 150>audio/music/night_of_chaos.mp3"
+define audio.ossuary_2_turn = "audio/music/ossuary_2_turn.mp3"
+
+define audio.tempting_secrets = "audio/music/tempting_secrets.mp3"
+define audio.anguish = "<from 92 to 150>audio/music/anguish.mp3"
+define audio.reign_supreme = "audio/music/reign_supreme.mp3"
+
 label start:
 
+# unseen horrors?
 # 1. BACK FROM THE DEAD
+    play music unseen_horrors
     "[[heart beating]"
     "[[burst of nervous breathing]"
     "[[shrieks and as she discovers the walls are confined and she lies in a grave]"
@@ -63,6 +88,7 @@ label start:
     "{{screenshot of full body Ildari walking, balancing with her hands}"
     "Ash...{p}Cold...{p}Soft..."
     "One. Two. Three."
+    "[[sound of feet in the sand]"
     "(more measured footsteps)"
     "You have to get out..."
     "Out of there, Ildari."
@@ -77,7 +103,10 @@ label start:
     "...get out."
     "[[silence]"
 
+# Past the edge?
 # 2. WE FOUND A CORPSE... ALMOST
+    play music past_the_edge
+    # but cut out this bugging suspense builder
     "{{a slide of a stormy sky}"
     "(the sounds of a thunderstorm in the bg + contemplational music)"
     n "...I've searched the whole storage room, we don't have any painkiller."
@@ -106,6 +135,7 @@ label start:
 
 
 # MY HAND'S CAN'T HEAL
+    play music welcome_to_horror_land
     "Ildari only slightly opens her eyes."
     it "Where... am I?"
     it "Someone... is talking outside."
@@ -117,13 +147,15 @@ label start:
     it "I don't want any bandages."
     "She unwraps her hands. The clotted blood stuck to the cloth, though."
     i "Auch! Ow!"
-    "To her dread, she discovers that her fingertips were almost skinned to the bone."
+    "To her dread, she discovers that her fingertips were almost skinned to the bone. Sounds of pulsating heart."
     it "Damn!"
     it "I have instinctively performed my restoration spell."
     it "The spark... it died before it was even formed."
     it "I can't... It's no good."
+    it "I feel faint..."
 
 # 4. NIYYA
+    play music past_the_edge
     "Niyya comes in."
     nt "She's awake. Perhaps she won't die after all!"
     "[[Niyya is overjoyed that she is concious.]"
@@ -135,17 +167,21 @@ label start:
     i "Water."
 
 # 3. WOKEN UP IN THE LAND OF HORRORS
+    play music welcome_to_horror_land
     "[[then Ildari notices a huge ash spawn in the corner]"
     it "An ash spawn?"
     "[[nervous breathing]"
     it "...here?"
     "[[ash spawn produces a low noise]"
+    it "So that's how my life will end."
+    it "I'm going to be ripped apart like a pagan sacrifice."
     it "Whatever."
     it "...I can't."
-    it "...I don't care."
+    it "...I'm too tired for that."
     "[[She's so weak that she doesn't even do anything to protect herself]"
 
 # WATER
+    play music lasting_hope
     "[[Niyya arrives.]"
     n "I'm back!"
     n "Here."
@@ -184,6 +220,7 @@ label start:
 
 
 # 5. SO, I'M WITH MINERS...
+    play music reign_supreme
     it "Making money on digging into the fortress... what a pathetic idea."
     it "So it's just a bunch of brutes with pickaxes. Phi."
     it "Where did the hell I end up..."
@@ -214,6 +251,7 @@ label start:
 
 
 # 7. WAKING UP IN THE REALM OF NIGHTMARES
+    play music ossuary_6_air
     "[[Ildari wakes up]"
     "[[She undresses her chest wound and looks at it]"
     "[[She's nearly crying]"
@@ -236,6 +274,7 @@ label start:
 # 6. SAY "HELLO" TO THE MINERS, ILDARI
     it "yes, they are there"
     it "talking about me"
+    "say hello to the miners, Ildari"
     m "...no, it doesn't look like anything I've seen before..."
     m "Oh, Ildari, right?"
     i "..."
@@ -245,10 +284,10 @@ label start:
     "he was staring at your wound"
     "at your heart stone"
     "what does he want to do with that?"
-    m "My name is [[NAME]."
+    m "My name is Marius Deannici."
     it "he must have thought i didn't notice him"
     it "i cannot trust him"
-    ni "... and I am [[ni NAME]"
+    ni "... and I am Nikolai."
     ni "Nice to meecha."
     i "Indeed."
     ni "Where did you get those wounds from?"
@@ -259,7 +298,7 @@ label start:
     m "Do ash spawns... carry diseases?"
     i "I don't recall any."
     i "I need to get some fresh air."
-    return
+
 
 
 # THE ASH IS SO SOFT...
@@ -283,6 +322,7 @@ label start:
 
 
 # WHO WERE YOU BEFORE, ILDARI?
+    play music magic_forest
     "[[Niyya comes in]"
     n "I saw you running. What happened?"
     i "[[inhale/exhale]"
@@ -291,7 +331,7 @@ label start:
     n "No. Why would it be?"
     n "No one ever reported such thing."
     n "I'll tell the others to be watchful."
-    i "NO!"
+    i "NO."
     i "No."
     i "It was probably nothing."
     i "I must have been tired."
@@ -300,8 +340,8 @@ label start:
     nt "What a selfish jerk I am. I got so invested in playing the helper that I completely forgot to ask who she was before."
     nt "She doesn't seem happy in this place."
     nt "I should have studied more. I could have become a healer and help dozens like her, in a place more appropirate."
-    nt "What can we offer her? There's just dirt and work to be done. And people have little time to help her."
-    nt "I need her trust."
+    nt "What can we offer her? There's just dirt and work to be done. The others, well, including myself have little time to help her."
+    nt "I need her to trust me."
     n "What was your life like before?"
     "[[she sees the body parts again]"
     "you were ambitious"
@@ -348,6 +388,7 @@ label start:
 #______________________________________________________________________________________
 
 # WHAT A MESS...
+    play music night_of_chaos
     "[[ildari wakes up and there are fragments of the bodies all scattered around]"
     "[[a slide where she puts her feet on the ground and there are body parts on the floor]"
     i "What a mess..."
@@ -425,9 +466,10 @@ label start:
     "And now enters Niyya."
     "Ildari hides her book."
     it "Maybe... maybe it's time I confessed to someone - to her..."
-    it "Maybe if I tell someone THEY will go?"
-    it "This can't hurt me, can it?"
+    it "Maybe if I tell someone they will go?"
+    it "She can't turn on me, can she?"
     # I WILL DO MY BEST TO HELP YOU
+    play music magic_forest
     "[[Niyya enters Ildari's room]"
     i "Niyya, I think I have to... tell you something."
     i "But... I need you to keep this secret."
@@ -470,6 +512,7 @@ label start:
 ###
 
 # 9. SHE CAN WALK, SHE CAN WORK
+    play music night_of_chaos
     "[[Niyya and m are talking, then Ildari approaches]"
     m "Seems like Ildari feels better now, her hands look better..."
     m "She could relieve us of some of that work."
@@ -499,6 +542,9 @@ label start:
     "no, Ildari"
     "you are alive"
     "your heart stone is beating"
+    "it hurts you, though"
+    "it still hurts"
+    "relentlessly"
     it "I'm so exhausted."
     "you have to do something"
     "you are being useless..."
@@ -531,7 +577,7 @@ label start:
     it "[[slide with her heart]"
     it "And all I got is... pain."
     it "...and voices."
-    it sounds of the voices there
+    it "[[sounds of the voices there]"
     it "[[slide with Ildari\'s hand clutching the peeling knife]"
     it "That all..."
     it "[[Ildari\'s angry face]"
@@ -541,17 +587,91 @@ label start:
 #______________________________________________________________________________________
 
 # I CAN MAKE MY NIGHTMARES REAL
-    # encounters some ghosts again
-    # seems like it's only me that sees them
-    # "I can’t have any friends - I have the access to a different realm. they don’t see what I do. All I know is pain and voices and bones in the ash. They can only pity me. I detest pity."
-    # maybe my source of torment can be my source of power? perhaps i'm far more used  to death and ghosts that most of the sorcerers. And I got insensitive to death, suffering. That might be useful...
-    # Ildari makes trips to ashlands to play with conjuration. Ildari rises an ash spawn - “My nightmares can turn real”
-    # She is overjoyed with her results
+    play music ossuary_6_air
+    "[[Ildari is in the ashlands]"
+    it "Niyya..."
+    it "I really appreciate what she's doing for me."
+    it "But that damned Imperial~!"
+    it "At least in ashlands I can be alone."
+    i "ghosts"
+    i "ghosts"
+    i "ghosts everywhere"
+    i "what could I talk about if i had friends"
+    i "all i see is death"
+    i "death death death death"
+    i "they can only hate or pity me"
+    i "instead, the ghosts keep talking to me" ### ? seem to know me better ?
+    "you were a sorceress once, Ildari"
+    "are you one now?"
+    "no no no no"
+    "she works in the kitchen"
+    "Ildari"
+    "you need to prove that you're a sorceress"
+    "show the world how you can rise your servants from the ashes"
+    "resurrect us!"
+    i "Necromancy..."
+    "[[zoom on Ildari's face]"
+    it "Concentrate, Ildari."
+    "[[zoom on her hand with a spell]"
+    it "Concentrate."
+    "[[she casts a spell (you need a sound)]"
+    it "It doesn't work."
+    "it doesn't"
+    "pitiful"
+    "[[she casts a spell again (you need a sound)]"
+    it "Wait... it does."
+    "[[a slide with ash spawns face + HEART]"
+    a "Mmmmmm..."
+    i "So... it's you."
+    it "You were trying to communicate with me all that time."
+    "[[the spell wears off (sound + upper perspective image with Ildari and bare ground.]"
+    i "A creature made of ash..."
+    i "...with a heart like mine."
+    "[[Ildari bursts into an overly confident laughter]"
+    "Ghosts!"
+    "I can give them flesh."
+    "I can make them real."
+    "REAL!"
+    "I WON'T BE THE ONLY ONE TO SEE THEM NOW!"
+    "[[smug grin]"
+    "Neloth, that fetcher~!"
+    "He's going to see them, too!"
+    ### ? maybe my source of torment can be my source of power? perhaps i'm far more used to death and ghosts that most of the sorcerers. And I got insensitive to death, suffering. That might be useful... ?
+
+
+
+# THEY ALL LAGUH AT ME...
+    "[[Ildari returns to her 'home', she's overjoyed. In background there's Nikolai.]"
+    i "{{singing in whispers} He's going to see them. He's going to see them."
+    i "{{Chuckles}"
+    ni "{{snorts with laughter}"
+    play music unseen_horrors
+    it "What?"
+    it "Sensless idiots, animals, beasts!"
+    it "Ignorant fools to whose all virtue is naugth."
+    it "Mocking my suffering. Mocking plans and ambitions."
+    it "Do they know what kind of power I'm learning to wield?"
+    it "What that damned heart stone could really do?"
+    "he will learn what you can do"
+    "it will be a pleasure to see his young face charring in the flames"
+    "exposing the bones"
+    "it's just some flesh"
+    "with soul or without it"
+    it "What?"
+    it "No."
+    it "Stop. Shut up."
+    "all flesh is moldable"
+    ### ? "you yourself were molded by neloth, too" ?
+    "waiting for you to dip your hands in their intestines"
+    "[[she sees some body parts scattered on the floor]"
+    it "Damn!"
+
 
 
 #______________________________________________________________________________________
 
 # TALVAS THE REPLACEMENT
+    play music ossuary_6_air
     "[[Ildari had gone to the ashlands again to practice ressurecting corpses.]"
     "Ildari"
     "there's a threat"
@@ -579,6 +699,7 @@ label start:
     "[[The dunmer notices her.]"
     t "Uhm... hello."
     t "I didn't notice you."
+    t "Been busy with that ash spawn."
     t "Is everything all right?"
     i "Quite so. Yes."
     t "Great."
@@ -589,9 +710,10 @@ label start:
     t "I'm Talvas. A new aprrentice of master Neloth."
     it "My replacement..."
     t "He lives there, in this tower."
+    play music invariance
     "[[there's a slide with Tel Mithryn in the distance along with the sound of uneatrhly disturbing piano note. The image is distorted (there are black noises (blooddrops) on the 'frame' of the image.]"
     "this horrid place"
-    "it stares at me"
+    "Neloth"
     i "A student..."
     t "Yes."
     it "How naïve he is."
@@ -609,110 +731,280 @@ label start:
     t "Are you sure you feel all right?"
     "madwoman"
     i "Yes. It will pass eventually."
+    i "I need to go, sorry."
     "madwoman"
     t "Please, let me escort you to wherever you live."
     it "!"
     t "It's not the safest place."
-    # talvas is a neloth's pawn
-    t "I won't disturb you then."
+    i "NO!"
+    t "I won't... disturb you then."
     t "See you."
     it "Damn, I was acting weird."
     it "He sure suspects something."
-    # She runs back to her sleeping place agitated.
-    # she concludes Talvas was spying on her
-    # and killin her ash spawns (neloth knows she can create them)
-    # I'm sure neloth takes notes of my accomplishments and enjoys watching me suffer
-    # THE WAVE OF ANGUISH AND PARANOIA
+    "Neloth"
+    "he's a Neloth's pawn"
+    play music magic_forest
+    "[[A slide with Talvas alone]"
+    tt "Poor madwoman."
+    tt "Maybe I should follow her after all?"
+    tt "Master will get angry that this took too long... but it can get real dangerous there."
+    tt "After all, she's better alive that dead."
+    play music invariance
+    "[[Slide with Ildari amidst the wilderness]"
+    "[[Ildari walks away.]"
+    it "Oof. Whoa I'm finally away from him."
+    "[[Slide with Talvas' feet just about to step on a twig]"
+    tt "So far clear."
+    "[[Slide with Talvas stepping on a branch. (sound of a branch breaking)]"
+    t "Damn!"
+    "NO!"
+    "HE'S SPYING ON YOU"
+    "RUN!"
+    "he knows about your ash spawns!"
+    "don't let him take your life so easily!"
+    "[[slide with Ildari instantly running away]"
+    "[[slide with Talvas facepalming]"
+    t "Idiot, idiot, idiot, idiot!"
+    t "You got her dead scared! Running in panic through the woods!"
+    t "Now she might run into real danger!"
 
-# SOMETHING'S OFF WITH HER
-    # m says to ni that there's something off with Ildari and normally sick people are tired, she seems to conceal some secrets
-    # ni notices as she weirdly delights herself in dipping her feet with the ash (result of "myśli nadrzędne" czy jakoś tak and her speech tends to be sometimes distorted)
-    # he suggests that some people after specific injuries are mentally ill
-    # m says we should lock her up
-    # ni argues that pleasant, non-intrusive behavior keeps things peaceful
-    # those people are usually harmless
-    # is she's healthy - locking up may do the advere effect
-    # "we might as well just kill her"
-    # ildari overhears the last part
 
 
-# THEY ALL LAGUH AT ME...
-    # someone produced a short burst of laughter when she was nearby
-    # sensless idiots, animals! beasts! they take pleasure in contributing to my demise
-    # do they know of my secrets?
-    # what a heart stone could really do?
-    # you are not unhinged
-    # it's just that your hinges creak
-    # no
+# ? SOMETHING'S OFF WITH HER ?
+    play music reign_supreme
+    "[[Marius is ordering the crates from the cart, Nikolai enters.]"
+    m "Where's Ildari?"
+    ni "Huh? Her? She's probably gone to the ashlands, as usual."
+    m "Dammit! I told her to help me with the crates!"
+    m "What does she do in those ashlands, anyways?"
+    ni "I dunno. She's whacky. I saw her once or twice taking almost orgasmic pleasure in dipping her feet in the ash."
+    m "What? Does she take skooma when no one's around?"
+    ni "Nah, I don't think so."
+    ni "I suspect it's something else, actually. Not only skooma addicts can behave like that."
+    m "What, then?"
+    ni 'I\'ve been to some strange cities before...'
+    ni 'and in one of them they had this place called "asylum".'
+    ni "It very much resembled a hospital. And, I promise, there was no skooma involved."
+    ni "The people from the outside were gererally intact... but I haven't seen more madness in one place in my life!"
+    ni "They were wailing! Shouting! Rolling on the floor! Stabbing themselves with forks!"
+    ni "...smearing their feces on the walls!"
+    ni "Pfff, some of them had to be even locked away in the cells - for the sake of safety!"
+    ni "I'm not gonna set there my foot ever again!"
+    m "So you think she's going insane?"
+    m "We ought to lock her up for a while, just in case."
+    m "Do you think she really is dangerous?"
+    ni "Well, no one really knows until something happens. Even Ildari."
+    ni "Locking up seems excessive for now. It may worsen things."
+    ni "I myself would probably go mad solely because of being locked in the cell and constantly monitored."
+    ni "We should fall back on such a drastic measure only if we get some more sound proofs of her being dangerous."
+    m "We should watch her more closely, then."
+    "[[Ildari is standing by the wall, listening to everything with eyes wide open]"
+    it "WHAT?"
+    it "Watch me more closely?"
+    it "Calling me insane, Gods damn them!"
+    it "What they are planning to do with me behind my back?"
+    it "First this pitiful apprentice, then THEM?!"
+    "you can never be really free from Neloth"
+    "he's spinning his web around you like a spider"
+    "and then he'll suck you dry"
+    "if you want to live..."
+    "TAKE ACTION"
+    it "Stop. Please."
+    it "Am I really becoming unhinged?"
+    "you are not unhinged Ildari"
+    "it's just that your hinges creak"
+    "creak creak creak creak"
+    "mwahahahaha"
+    "[[get sound of the hinges creaking and nervous lauthter]"
+    it "NO!"
+    i "Shut up. Shut up."
+    i "Shut up!"
+    "[[Niyya enters the hallway, she gets worried.]"
+    nt "What is she saying? There's no none there."
+    "[[Ildari runs to her room.]"
+    n "Ildari? Ildari!"
+    n "Wait!"
+
+
 
 # ILDARI? ILDARI! WAIT...
-    # Niyya is deeply concerned about ildari
-    # the other decide that they shouldn't care
-
-# A DIFFERENT STATE OF MIND
-    # Niyya had a conversation with a Niklas about the hardships of taking care of Ildari (Niyya felt so overburdened that she had to tell it to someone)
-    # Niyya tells the ni what's happening to Ildari, for the hope he may know sth about it
-    # “once people are insane, you can’t be really friends with them”
-    # “their mind is constantly in another state you can’t even imagine”
-    # “they are not responsible for their actions and their feelings”
-    # “good that you want to help her, I guess”
-    # "but it's much safer to stay away from those people"
+    play music night_of_chaos
+    "[[Nikolai approaches Niyya]"
+    ni "Cool it!"
+    ni "You don't have to babysit her."
+    n "{{inhale/exhale}"
+    n "Ugh, her behavior is such a burden to me recently. Sheesh, I guess I have to confess to someone."
+    ni "Well, if you wish so... then yeah."
+    n "I'm afraid she's going..."
+    ni "...mad? I think the same."
+    ni "Good that you want to help her, but trust me, once people become REALLY insane, you can't really be friends with them."
+    ni "For a sane person, like you I guess, it's unimaginable even in the slightiest bit in what kind of state their mind is."
+    ni "They are not responsible for their actions nor their feelings."
+    "[[here Niyya recollects hugging/(? kissing ?) Ildari]"
+    ni "And from what I've heard... you can really be friends with people unless you FEEL the same, at least form time to time."
+    ni "I don't want to get influenced by such people at all. No use tricking yourself they are just like any other."
+    n "{{sigh}"
+    n "Thank you."
+    n "I'll keep that in mind."
 
 
 
 
 # I KNOW ONLY PAIN AND DEATH, NIYYA
-    it "I see so much blood. Everyday. Maybe I'm becoming insensitive to its sight."
-    i "I know only pain and death, Niyya. And hurt and violence. This hurts too much."
-    i "I live in the world of death and constant pain."
+    play music unseen_horrors
+    "[[Niyya has much colder expression.]"
+    n "Ildari..."
+    i "{{Ildari sobs loudly and breathes quickly and inconsistently, she has red nose from crying}"
+    i "I see only death and monsters, Niyya."
+    i "I know only pain and violence! Constant pain! It hurts! HURTS!"
+    i "I'm not a human. I'm a beast."
+    nt "Technically you are an elf, but I don't think I should say that."
+    i "Hug me."
+    i "Please..."
+    "[[they hug]"
+    nt "Sheesh, Nikolai was right. What have I gotten myself into."
+
 
 
 #______________________________________________________________________________________
 
 
-###
 
 
 # THE PARASITE ILDARI
-    # m talks with someone about Ildari's clothes - if the blood goes off, they might be able to sell them
-    # the m Deanicci scolded Niyya for wanting to keep Ildari around - she was barely fit for any work and still consumed their precious food
-    # he yells that ildari should be sent for raven rock to beg for a living
+    m "If that damned fetcher will keep on shirking her job like that I'm gonna sell her old fancy clothes. The blood went off almost completely so they might fetch a high price."
+    n "{{sighs}"
+    m "Don't sigh, Niyya. She gets what she asks for."
+    n "Maybe... maybe we should keep her there after all? She might not have anyone else to take care of her!"
+    ni "what? You women and your pitiful sentiments."
+    m "She's barely fit for any work yet she still consumes our precious food. And it got A LOT scarcer recently!"
+    m "She leaves. Maybe someone in Raven Rock will give her some scraps if she'll beg humbly enough."
+    "[[face of Niyya contemplating, looking at the side.]"
+    n "Fine, I'll tell her that."
 
 
-# THE BEANS GOT SPILLED
-
-# MADWOMAN!
-    m "There are no voices and ghosts, Ildari!"
-    m "That's a sick excuse to do suspicious things!"
-    m "You spend whole days in ashlands instead of earning for your living!"
 
 # SO I HAVE NO FRIENDS...
-    n "Ildari, it is a very bad decision to hide it."
-    "SHE WANTS TO TELL THE OTHERS!"
-    # Ildari’s voices tell her about Niyya’s “betrayal”
+    "[[Niyya enters Ildari's room.]"
+    "[[Ildari still has a tired face and red nose from crying.]"
+    i "What again?"
+    n "I need to talk with you."
+    i "Hm?"
+    n "Ildari, the fact that you see ghosts, doesn't mean that you should act as if you were there."
+    n "That's not real! You should oppose if you still consider yourself a thinking being! Pull yourself together! Not run away to the ashlands!"
+    m "There are no voices and ghosts, Ildari!"
+    m "You spend whole days in ashlands instead of earning for your living!"
+    it "That was Deanicci, yes? He told you all of that, yes?! YES?!"
+    "[[niyya inhales/exhales loudly]"
+    n "Marius wants you to leave."
+    n "You will surely find a way to obtain food and a place to sleep in Raven Rock or somewhere. I'm sure there are benevolent people out there that will pity on you."
+    n "I'm gonna take a break from... you."
+    n "It's too much for me."
+    n "Sorry."
+    i "Oh, so she's such a soft and gentle being that she wants to leave before she sees how Neloth immerses me in sufferings!"
+    "[[Ildari watches Niyya with eyes wide open]"
+    "[[Niyya becomes on the verge of crying, too]"
+    n "Ummm... I guess we can meet again as soon as this will be over."
+    it 'What "THIS" you mean, Niyya? I have a f*cking heart stone. "THIS" will never go away, you cold b*tch!'
+    n "Uhm... do you want a hug?"
+    "[[they hug]"
+    it "So I have no friends."
+    "her flesh is so soft in your arms"
+    "that's how a traitor feels"
+    "traitor can have soft spots, too if you know where to hit them"
+    "[[they stop hugging]"
+    "[[Niyya sighs] (get some sigh sounds)"
+    n "It will be allright."
+    "[[Ildari sits in her hunched pose, smiling wildly with her hair covering her eyes]"
+    i "Niyya..."
+    i "{{whispers} Can I tell you a secret?"
+    n "Yes..."
+    i "{{whispers} But will you keep it?"
+    n "Yes."
+    i "{{whispers}Do you know that..."
+    n "Hm?"
+    i "{{whispers} Do you know that I've resurrected corpses?"
+    n "Eh?"
+    nt "Gods, she's completely out of her mind."
+    n "You should have some rest, Ildari."
+    n "I need to go."
+    n "Goodbye."
 
-
-
-
-
-# PREPARING SWEET REVENGE
-
-# NIYYA... DO YOU KNOW I'VE RESURRECTED CORPSES?
-    # finally, after some nervous breakdown, Ildari confesses to Niyya that she is a necromancer, Niyya ignores the danger and she is rather concerned about her. she thinks that Ildari lost her mind completely and she is talking gibberish
 
 # NIYYA'S SMALL, SOFT HEART
-    # Niyya is afraid that people will turn on Ildari after knowing how bad it really is with her, she feels like friends should keep their secrets
+    play music anguish
+    "(heartbeat sounds in the bg)"
+    "[[A slide with Niyya with eyes wide open - zoom on her face.]"
+    nt "Oh, no!"
+    nt "What has gotten into me to say such things?!"
+    nt "Nikolai, that scum. And Deannici..."
+    nt "If she was handled with more care maybe she wouldn't crack up and say such gibberish!"
+    nt "What was she talking about again? Necromancy?"
+    nt "Is that a REAL secret or some sort of new hallucination?"
+    nt "She's probably talking gibberish. Or..."
+    nt "No, I can't tell anyone."
+    nt "They'll get the wrong idea and then they might even turn on her!"
+    n "{{sigh}"
+    nt "I should convince the rest to let Ildari stay."
+    nt "If we... I don't take care of her she might be lost. Forever."
+
+
 
 # MIRROR, MIRROR - AND ALL MY FOES
-    # everyone's sleeping
-    # Ildari has a voiceless speech to everyone (Neloth, miners) in the mirror in her newly acquired Telvanni robes, changing her expressions
-    # “You think I can’t kill you. But I can make your life more miserable. You don’t even realize what I went through because of you!”
+    play music crypto
+    # ossuary 2 is too intense
+    "[[Ildari stands in front of the mirror - shot from the side.]"
+    i "I've managed to get the robe of house Telvanni back while everyone was sleeping."
+    "[[Now there's a picture with the table with some clutter on it, and the mirror above - in the mirror there's front view Ildari (from her chest up)"
+    "[[smug]"
+    i "Jeez, I look splendid in it."
+    i "You wear such robes everyday, Neloth, don't you?"
+    i "You even were generous enough to bury me in one of them as a way to honour my invaluable deeds for the house Telvanni."
+    i "...having my body cut open and rearranged like a sacrificial cow!"
+    i "You've promised me being almost like a god."
+    "[[mad]"
+    i "Yet, you've forgot to mention constant pain. And the Voices!"
+    "[[smug]"
+    i "You thought yourself so sly that you sent those pitiful miners to watch my every move."
+    i "Thanks especially for my guardian angel, Niyya."
+    "[[mad]"
+    i "Whom you ordered to get close enough to me to stab me right where my heart was!"
+    "[[smug]"
+    i "How filthy of you."
+    i "I know you are watching me closely of the other side of the mirror."
+    i "So I'll let you know it: I'm gonna defend my life."
+    i "Go on, pull all your aces out of your sleeve."
+    i 'Your pitiful /"miners/" will be gone, soon.'
+    "[[mad]"
+    i "Tomorrow will be the night of my wrath!" ### ? or today ?
+    "[[(a sound of impact magic and broken glass) - she destroys the mirror]"
+    ### ? does everything go blank or do we see shattered glass ?
 
-# RISE FROM THE ASHES!
+
+
 
 # THE NIGHT OF MY WRATH
-    # ATTACK - (she paralyzes everyone while they sleep?)
-    # captives are terrified, and choose not to riot
+    play music ossuary_2_turn
+    "[[Ildari arrives with her servants]"
+    i "Surrender."
+    n "What?"
+    n "No, no!"
+    ni "What the f*ck are those?"
+    i "SHUT UP!"
+    i "You won't get my heart stone!"
+    i "You laughted at my suffering!"
+    "[[she is turned backwards to imperial, he grabs a pickaxe, swings it and tries to smash her head]"
+    "[[A slide with she saying 'huh?' and imperial behind her back swinging an axe - and behind him there's an ash spawn with a sword]"
+    "[[A slide with Ildari screaming being painfully hit with a pickaxe. (scream sound)]"
+    "[[A slide with imperial being pierced with an ash spawn sword]"
+    "[[A slide with Ildari instantly healing]"
+    "[[A slide with Niyya and Nikolai wide-opened, being silent]"
+    ni "..."
+    n "..."
+
+
+
+# CAGE THEM!
     nt "Ildari?"
     nt "No, that can't be..."
     nt "How did she...?"
@@ -726,101 +1018,130 @@ label start:
     "your stone"
     "it's safe in your chest for now"
     "if you arrest them"
-
-
-# I DON'T KNOW ANY NELOTH!
-    # Captive: “I don’t know any Neloth!”
-
-# POUND THAT BITCH TO DEATH!
-    # the m Deanicci (with 2 other guys?) managed to hide and to sneak into the room while she was not looking
-    # he managed to attack her from the back with something blunt - Ildari evaded, but was painfully hit on a shoulder
-    # X two ash spawns took care of him and pierced his chest with a sword
-
-
-# TASTE MY PAIN!
-    # Ildari: “Now you go when I was (she lived in a cell)”
-
-
-
-# WHO WAS ILDARI? WHO WAS NELOTH?
-    # her victims are whispering in the cell about: who Neloth might be? What's wrong with her?
+    ni "I don’t know any Neloth!"
+    ### ? her victims are whispering in the cell about: who Neloth might be? What's wrong with her? ?
 
 
 # NIYYA'S LAMENT
+    play music unseen_horrors
     nt "How naïve I was to help her."
-    nt "All my friends died because of my naïvety."
-    ### ?
-    nt "She could forget about her revenge. About all of that."
+    nt "And all my friends died because of that."
+    "[[Ildari comes and Niyya stays silent.]"
+    nt "Gods, I don't want to die!"
+    nt "This isn't the ildari I knew. Or I never knew the real Ildari?"
+    nt "What happened to you?"
+    nt "Why, Ildari, why?"
+    nt "You could have forget about your revenge. About all of that."
     nt "Move somewhere."
     nt "Be happy."
+    nt "You had me, after all."
+    nt 'Is that because of this wound, this "heart stone" of hers?'
+    i "Ugh, I've bungled it all up again..."
+    i "I need another fresh subject."
+    i "Nikolai!"
+    ni "No! Please!"
+    "[[a slide of Ildari's hand casting a spell.]"
+    ni "Uuugh!"
+    ni "Quitet breathing."
     nt "No, there's no another reality."
-    # it mush have been that wound
-    # that wound hurt her so much
-    # Gods, I don't want to die!
-    # Ildari comes and Niyya stays silent.
-    # She acknowledged this isn't the Ildari she knew. Or she never knew the real Ildari?
-    # What had happened to her?
-    # She could forget about all of that.
-    # I wonder if that "Neloth" of hers even gives a sh*t about her!
-    # Is that her wound that caused her so much distress?
+    nt 'I wonder if that "Neloth" of hers even gives a sh*t about her!'
 
-# YOU WON'T SUFFER MORE - THAN I DID!
-    # Ildari upon taking one of her victims to an “operation”: “You won’t suffer more THAN I DID!”
 
 
 # YEARS OF RESEARCH
     "[[Ildari surrounded with ash spawns]"
-    # These warrens are well suited to me.
+    it  "These warrens are well suited to me."
     "[[Ildari leaning over a journal with madman's scribbles]"
-    # I can plot my vengeance undisturbed.
+    it "I can plot my vengeance undisturbed."
     "[[Ildari reads sth.]"
-    # Still, I can feel Neloth's gaze at my neck.
-    "Oh, shit, he sees me."
+    it "Still, I can feel Neloth's gaze at my neck."
+    i "Oh, shit, he sees me."
     "[[she looks at the window]"
     "[[she continues to read under the window]"
-    # Creating ash spawns/atronachs.
-    # Yet I know it isn't enough. Neloth is a wily old wizard. I need more power.
+    "[[She's creating ash spawns/atronachs.]"
+    it "Yet I know it isn't enough. Neloth is a wily old wizard. I need more power."
 
 
 
 # DON'T BE RIDICULOUS, CARIUS
-    # "I've discovered a crypt with a plenty experiment subjects"
-    # Ildari making fun of commander Carius being paranoid (laughing after putting him temporary to sleep -
-    # She laughs wildly
-    # then she sits brooding and contemplates her life)
-    # BACKSTABBER
-    i "Hmm... what could possibly go wrong?"
-    i "Hm?"
+    play music tempting_secrets
+    it "Oh, and I've discovered a crypt with a plenty of dead experiment subjects"
+    "[[a shot of ildari incatning sth (and gesturing with her hands) over a lying carius) (get a mumbling spells sound - or record)]"
+    "[[a shot of falx carius with closed eyes]"
+    "[[a shot of falx carius with opened eyes, agitated]"
+    c "ENEMIES!"
+    c "They want to take down the fort!"
+    "[[ildari with scornful face]"
+    i "There are no enemies there!"
+    "[[a slide with carius who got up and looks backwards]"
+    c "A spy!"
+    c "KILL HER!"
+    "[[a slide with Ildari's hand blasting a powerful spell (a sound of powerful 'boom' spell)]"
+    c "Nooo..."
+    "[[silence]"
+    ### ? a shot of carius sleeping again ?
+    "[[a slide of Ildari hunching over with a heart stone in her hand.]"
+    i "What went wrong?"
+    i "Fuck, I've used up all my magic for today and there's still no results."
+    i "This is becoming intolerable."
+    i "I'm beginning to wonder if someone with a heartstone can be commanded at all."
+    "[[Ildari laughs wildly while hunched]"
+    ### ? you should remove either archer or backstabber
     "[[she would have a brief vision that someone is there to stab her in the back]"
     "[[then she realizes that she is still breathing and that was not real]"
+    "[[she sees an archer]"
+    i "Archer?!"
+    "[[Ildari is almost crying]"
+    it "NO! PLEASE!"
+    it "I do not want to die"
+    i "Oh."
     i "There's no one there, Ildari."
     i "No one..."
     i "Shhh..."
-    # SELF-ACKNOWLEDGEMENT
+    it "Damn, I'm letting myself to be driven by such delusions and primary instincts."
+    "[[another shot of Carius]"
+    it "...driven by the loopholes in my personality."
+
 
 
 # NIYYA'S BITTERNESS
+    "[[there's Niyya in the cell, but she's far more wrinkled]"
     nt "I don't know how many years it's been there."
     nt "She's an elf, so that's nothing for her, but I've probably wasted half of my life in this cell!"
+    nt "I've only grew older and more tired."
     nt "That b*tch!"
     nt 'I hope that this "Neloth" will finally put an end to her!'
+    ### ? nt 'Huh?'
+    ### ? "[[there's a shadow over her]"
 
 
 
 
-
+# Ossuary 4 animate
+# Ossuary 2 turn
 # THIS TIME IT'S FOR REAL...
-    # the voices tell them of someone coming
-    # i knew it!
+    play music ossuary_2_turn
+    "Ildari was reading sth."
+    "There are footsteps."
+    "Someone's approaching"
+    "This time it's for real"
+    it "I knew it."
+    it "I knew it all."
+    "Ildari"
+    "Say hello to your killer"
+    "HELLO!"
+    i "Shaddup!"
+    "[[she comes to the platform and exclaims things]"
     "Neloth was a fool to send some lowlife to finish me off."
-    # she runs to her chamber
-    # "Prepare, Ildari"
+    "your chamber will be your fortress"
+    "RUN!"
+    "Prepare, Ildari"
     "The heart stone protects me."
     "The heart stone protects me."
     "[[movements indicating that she's preparing for the fight - hand on her staff, clenched fist, pulsating stone]"
     "[[last slide is the closeup of her determined face]"
 
-
+    "THE END."
 
     # This ends the game.
 
